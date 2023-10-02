@@ -32,7 +32,7 @@ async function loadMarkersFromJSON()
     try 
     {
         // Realize uma solicitação Fetch para o arquivo JSON
-        const response = await fetch('../../academiadacidade.json');
+        const response = await fetch('academiadacidade.json');
         const dataText = await response.text();
 
         // Fazer o parse do JSON manualmente
